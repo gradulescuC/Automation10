@@ -1,10 +1,15 @@
-pret_masini = {
-'Dacia': 6800,
-'Lăstun': 500,
-'Opel': 1100,
-'Audi': 19000,
-'BMW': 23000}
-accesibil = 15000
-for key, value in pret_masini.items():
-    if value <= accesibil:
-        print(f'Masina pe care ti-o permiti este {key}')
+lista_numere = [1, -2, 3, 8, 0, -5]
+
+def returnare_pozitiva(lista_numere):
+    for numar in lista_numere:
+        if numar <= 0:
+            lista_numere.remove(numar)
+    print(lista_numere)
+
+def numere(lista):
+    for i in lista:
+        if i<=0:
+            lista.remove(i)
+lista=[5, 7, 3, 9, -3, 3, -1, 0, -4, 3]
+numere(lista_numere)
+print(lista_numere)

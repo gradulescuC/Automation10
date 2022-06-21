@@ -1,4 +1,6 @@
-from Automation10_Projects.PythonAutomation.exercitii import returnare_pozitiva
-
-lista_numere = [1, -2, 3, 8, 0, -5]
-returnare_pozitiva(lista_numere)
+model = 123
+print(type(model))
+model = "test"
+print(type(model))
+while type(model) !="<class 'str'>":  # verific daca inputul de la utilizator este un string
+    input('Invalid value, please try again.')

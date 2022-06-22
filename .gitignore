@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-exercitii_1.py
+Automation10_Projects/exercitii_1.py
+exercitii.py

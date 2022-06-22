@@ -85,11 +85,12 @@ class Masina:
     consum_interactiv = None
 
 
-    def __init__(self, model,culoare): # self reprezinta un placeholder pentru viitorul nume al obiectului care se va instantia
+    def __init__(self, marca,model,culoare): # self reprezinta un placeholder pentru viitorul nume al obiectului care se va instantia
                                        # model si culoare reprezinta ARGUMENTELE constructorului si ele vor fi considerate obligatorii la momentul instantierii obiectului
         self.model = model  #  aici vom atribui atributelor clasei valorile date ca si PARAMETRU in interiorul constructorului
                                        # in stanga egalului vor fi intotdeauna atributele clasei care vor trebui initializate, iar in dreapta argumentele constructorului care vor fi stocate in atributele clasei
         self.culoare = culoare
+        self.marca = marca
         # while type(model) is not "str": # verific daca inputul de la utilizator este un string
         #     input('Invalid value, please try again.') # daca nu este string, promptez utilizatorul sa introduca o noua valoare
         if culoare == 'orange': # verificam daca culoarea data ca si argument in constructor este orange
@@ -120,13 +121,13 @@ class Masina:
 
     def calcul_consum_max(self):
             if self.viteza_max <= 180 and self.viteza_max > 160:
-                    self.consum_viteza_max = 10
+                    self.consum_viteza_max= 10
             elif self.viteza_max <= 160 and self.viteza_max > 120:
-                    self.consum_viteza_max = 7
+                    self.consum_viteza_max= 7
             elif self.viteza_max <= 120 and self.viteza_max > 100:
-                    self.consum_viteza_max = 6
+                    self.consum_viteza_max= 6
             else:
-                    self.consum_viteza_max = 5
+                    self.consum_viteza_max= 5
             return self.consum_viteza_max
 
 """
@@ -135,12 +136,12 @@ Putem modifica alti parametri, sau chiar pe cei definiti prin constructor, dupa 
 IMPORTANT:
 Orice atribut sau functie din interiorul clasei se poate accesa DOAR prin intermediul obiectului
 """
-instanta_masina_bmw = Masina("X5","orange") # Am instantiat un obiect al clasei Masina numit instanta_masina1
+instanta_masina_bmw = Masina("BMW","X5","orange") # Am instantiat un obiect al clasei Masina numit instanta_masina1
 print(instanta_masina_bmw.culoare)
 instanta_masina_bmw.viteza_max = 120
-instanta_masina_volkswagen = Masina("Volkswagen","negru")
+instanta_masina_volkswagen = Masina("Dacia","Logan","negru")
 instanta_masina_volkswagen.viteza_max = 180
-instanta_masina_golf = Masina("Golf","Albastru")
+instanta_masina_golf = Masina("Volkswagen","Golf","Albastru")
 instanta_masina_golf.viteza_max = 180
 
 # instanta_masina_bmw.model = "BMW" # am modificat atributul model si i-am dat valoarea BMW
@@ -174,26 +175,6 @@ instanta_masina_golf.viteza_max = 180
 #     print(instanta_masina4.model, instanta_masina4.culoare)
 #     print(instanta_masina5.model, instanta_masina5.culoare)
 
-"""
-
-Clasa = tipar pe baza caruia ne putem defini obiecte
-obiect = instanta a unei clase (adica reprezentare reala a clasei)
-atribute = proprietati pe care le pot avea obiectele
-metode = actiuni pe care le pot face obiectele
-atributele si metodele pot fi accesae DOAR prin intermediul unui obiect instantiat
-
-"""
-
-# for i in range (180,100,10):
-#     if i <=180 and i >100:
-#         consum = 10
-#     else:
-#         consum = 5
-
-# consumul la 180km/h este de 10l
-# consum la sub 100km/h este de 5l
-
-
 # Calcul consum in functie de viteza in afara clasei
 for instanta_masina_bmw.viteza in range (180,100,1):
     if instanta_masina_bmw.viteza <=180 and instanta_masina_bmw.viteza>160:
@@ -205,7 +186,6 @@ for instanta_masina_bmw.viteza in range (180,100,1):
     else:
       consum = 5
 
-# lista_masini = [instanta_masina_bmw,instanta_masina_volkswagen,instanta_masina_golf]
-# for masina in lista_masini:
-#     if masina.viteza_max == 180 and masina.consum_viteza_max == 10:
-#         print(f"Va recomandam masina {masina}")
+lista_masini = [instanta_masina_bmw,instanta_masina_volkswagen,instanta_masina_golf]
+for masina in lista_masini:
+    print(f"Masina {masina.model} poate atinge o viteza maxima de  {masina.viteza_max} la care va consuma {masina.calcul_consum_max()}")

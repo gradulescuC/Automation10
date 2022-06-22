@@ -91,8 +91,8 @@ class Masina:
                                        # in stanga egalului vor fi intotdeauna atributele clasei care vor trebui initializate, iar in dreapta argumentele constructorului care vor fi stocate in atributele clasei
         self.culoare = culoare
         self.marca = marca
-        # while type(model) is not "str": # verific daca inputul de la utilizator este un string
-        #     input('Invalid value, please try again.') # daca nu este string, promptez utilizatorul sa introduca o noua valoare
+        while isinstance(model,(int,float))==True: # verific daca inputul de la utilizator este un string
+            model = input('Invalid value, please try again.') # daca nu este string, promptez utilizatorul sa introduca o noua valoare
         if culoare == 'orange': # verificam daca culoarea data ca si argument in constructor este orange
             self.culoare = 'portocaliu' # daca este orange, o schimbam in portocaliu pentru ca nu avem culoarea orange in baza de date
 

@@ -4,7 +4,8 @@ class Student_upgraded(Student):
     _var = "test"
     __va1 = "test_private"
     def update_name(self):
-         self._name = "Aidan" # Aici variabila nume a fost disponibila in recomandari pentru ca suntem in in interiorul clasei mostenitoare
+         self._name = "Aidan" # Aici variabila nume a fost disponibila in recomandari pentru ca suntem in in interiorul clasei mostenitoare,
+                                    # chiar daca suntem in alt pachet
 
 std = Student
 # print(std._name) Aici ne da eroare: AttributeError:

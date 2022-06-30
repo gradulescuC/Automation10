@@ -1,4 +1,4 @@
-from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_07.POO_piloni.tst_encapsulation import Student
+from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_07.POO_piloni.tst_encapsulation_citeste_din_tst_encapsulation import Student
 
 class Student_upgraded(Student):
     _var = "test"

@@ -2,7 +2,7 @@
  Programare orientata pe obiecte reprezinta o modalitate prin care noi putem templetiza
 atributele si comportamentul unui anumit element. 
 
- Programarea orientata pe obiecte este prescurtata cu acronimul POO sau varianta in engleza
+ Programarea orientata pe obiecte este prescurtata cu acronimul Exercitii_POO sau varianta in engleza
 OOP  object oriented programming
 
  O clasa in general este unul din elementele de baza al programarii orientate pe obiecte
@@ -55,7 +55,7 @@ La fel ca la structurile alternative (IF) si cele repetitive (WHILE, FOR), corpu
         de indentarea codului, adica lasarea unui spatiu intre marginea fisierului si cod
         
 Constructor = un agent care este responsabil cu crearea obiectului
-In orice limbaj de programare POO exista un constructor implicit si un constructor explicit
+In orice limbaj de programare Exercitii_POO exista un constructor implicit si un constructor explicit
 
 Constructorul explicit este cel care se defineste de catre dezvoltator in cod
 Constructorul implicit este cel care se apeleaza automat de python atunci cand constructorul explicit nu este definit

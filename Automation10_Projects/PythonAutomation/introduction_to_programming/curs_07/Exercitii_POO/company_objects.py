@@ -1,4 +1,4 @@
-from PythonAutomation_Automation10.POO.company import company
+from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_07.Exercitii_POO.company import company
 
 employee1 = company('Bogdan', 'Mihalcea', '33', 'Engineer',1200)
 employee1.add_department(0,'Hard Work Department')

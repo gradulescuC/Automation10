@@ -248,22 +248,22 @@ IMPORT
 
 # VARIANTA 1:
 
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import pret_bilet
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import taxe_absolute
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import discount_absolut
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import taxe_aplicabile
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import pret_total_bilet
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import discount
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import pret_bilet
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import taxe_absolute
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import discount_absolut
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import taxe_aplicabile
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import pret_total_bilet
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import discount
 
 
 # VARIANTA 2
-# from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05.helper_05 import *
+# from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05.helper_05 import *
 
 # caracterul "*" inseamna ca importam tot din fisierul specificat
 
 
 # VARIANTA 3
-from Automation10_Projects.PythonAutomation.introduction_to_programming.curs_05 import helper_05
+from Automation10_Projects.P1_PythonAutomation.introduction_to_programming.curs_05 import helper_05
 
 print(f"Taxele care se aplica la valoarea de {helper_05.pret_bilet} sunt {helper_05.taxe_absolute} lei")
 print(f"Discountul aplicabil pentru {helper_05.pret_bilet} este de {helper_05.discount_absolut}")

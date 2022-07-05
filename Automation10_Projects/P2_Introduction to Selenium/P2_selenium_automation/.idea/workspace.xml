@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dc0d721-9bde-4f8f-b41b-f6dbcfecf2d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/curs_08/test1_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test2_link_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test3_partial_link_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test4_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test5_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test6_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test7_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_08/test8_xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/test1_implicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/test2_explicit_wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/test3_assert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/test4_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/test5_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_09/testButton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-03-28_19-14-48.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_14-45-47.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_19-43-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_19-50-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_19-53-07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_19-54-54.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_2022-04-27_20-45-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/Smoke Test Result_27-04-22 02-37-23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/report_27-04-22 02-37-34.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/reports/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test1_suites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test2_firefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test3_alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test4_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test5_context_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test6_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs_10/test7_gherkin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/.idea/PythonAutomation_Automation10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/.idea/PythonAutomation_Automation10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_05/curs_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_05/curs_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_05/helper_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_05/helper_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_06/curs_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_06/curs_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_06/helper_06.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_06/helper_06.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_06/helper_06.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_06/helper_06.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_06/helper_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_06/helper_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/angajat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/angajat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/company.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/company_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/company_objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/factura.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/Exercitii_POO/factura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/abstractizare.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/abstractizare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/encapsulare.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/encapsulare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/mostenire.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/mostenire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/polimorfism.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/polimorfism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/POO_piloni/tst_encapsulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/POO_piloni/tst_encapsulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PythonAutomation/introduction_to_programming/curs_07/tst_check_protected_citeste_din_tst_encapsulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../P1_PythonAutomation/introduction_to_programming/curs_07/tst_check_protected_citeste_din_tst_encapsulation.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BX4OdJtPIdGuewWaKClKUa81wj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/gradulescu/Desktop/Personal/Cursuri/ITF/Automation_Testing/Grupe/Automation10/Automation10_Projects/P2_Introduction to Selenium/P2_selenium_automation"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="test1_id" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2_selenium_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curs_08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curs_08/test1_id.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test1_id" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dc0d721-9bde-4f8f-b41b-f6dbcfecf2d0" name="Changes" comment="" />
+      <created>1657039064572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657039064572</updated>
+    </task>
+    <servers />
+  </component>
+</project>

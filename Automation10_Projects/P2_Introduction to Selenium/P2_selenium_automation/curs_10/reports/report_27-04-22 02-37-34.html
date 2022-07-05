@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 1.0.15"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class='heading'>
+    <h1 style="margin-left:1ex;">Unit Test Report</h1>
+    
+    <p class='attribute'><strong>Start Time : </strong> 2022-04-27 14:37:34</p>
+    
+    <p class='attribute'><strong>Duration : </strong> 0:00:00.009288</p>
+    
+    <p class='attribute'><strong>Status : </strong> Error 3</p>
+    
+    <p class='attribute'><strong>Descrition : </strong> Test report generation using HTMLTestRunner-rv</p>
+    
+</div>
+<div>
+    <p id='show_detail_line'><b>Show</b>
+        <button><a href='javascript:showCase(0)' style="color:#660066;">Summary</a></button>
+        <button><a href='javascript:showCase(1)' style="color:#660066;">Failed</a></button>
+        <button><a href='javascript:showCase(2)' style="color:#660066;">All</a></button>
+    </p>
+    <table id='result_table'>
+        <colgroup>
+            <col align='left'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test Group/Test case</td>
+            <td>Count</td>
+            <td>Pass</td>
+            <td>Fail</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+        <tr class='errorClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c1','3')">selenium_automation.intalnirea9.test5_ex.Test2</a></td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c1','3')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+        
+        <tr id="ft1.1" class='none'>
+            <td class='errorCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.1')">test_elem_visible</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.1')" style="color:#660066;">
+                            ERROR
+                        </a></button>
+                    <div id='div_ft1.1' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.1').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre></pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea9/test5_ex.py", line 18, in setUp
+    s = Service(ChromeDriverManager().install())
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/chrome.py", line 21, in __init__
+    super().__init__(path, log_level=log_level, print_first_line=print_first_line,
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/manager.py", line 12, in __init__
+    log("\n", formatter='%(message)s', level=log_level)
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/logger.py", line 26, in log
+    loggers.get(name).info(text)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1446, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.2" class='none'>
+            <td class='errorCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.2')">test_page_title</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.2')" style="color:#660066;">
+                            ERROR
+                        </a></button>
+                    <div id='div_ft1.2' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.2').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre></pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea9/test5_ex.py", line 18, in setUp
+    s = Service(ChromeDriverManager().install())
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/chrome.py", line 21, in __init__
+    super().__init__(path, log_level=log_level, print_first_line=print_first_line,
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/manager.py", line 12, in __init__
+    log("\n", formatter='%(message)s', level=log_level)
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/logger.py", line 26, in log
+    loggers.get(name).info(text)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1446, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.3" class='none'>
+            <td class='errorCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.3')">test_url</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.3')" style="color:#660066;">
+                            ERROR
+                        </a></button>
+                    <div id='div_ft1.3' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.3').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre></pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea9/test5_ex.py", line 18, in setUp
+    s = Service(ChromeDriverManager().install())
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/chrome.py", line 21, in __init__
+    super().__init__(path, log_level=log_level, print_first_line=print_first_line,
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/manager.py", line 12, in __init__
+    log("\n", formatter='%(message)s', level=log_level)
+  File "/Users/gradulescu/Library/Python/3.9/lib/python/site-packages/webdriver_manager/logger.py", line 26, in log
+    loggers.get(name).info(text)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1446, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 96, in write
+    string = to_unicode(s)
+  File "/Users/gradulescu/Desktop/Personal/Diverse/automation/CursAutomatizare/PythonAutomation_v1/selenium_automation/intalnirea10/HTML/HtmlTestRunner/runner.py", line 70, in to_unicode
+    return unicode(s)
+TypeError: pyparsing_unicode() takes no arguments
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id='ending'><b>Time Elapsed: </b>0:00:00.009288</div>
+</body>
+</html>

@@ -55,27 +55,28 @@ l.stop()
 # Mai jos am definit o Interfata - adica o clasa abstracta in care toate metodele sunt abstracte (An interface is a completely "abstract class")
 # Obliga clasele mostenitoare sa implementeze functiile, e ca o reteta pentru subclase
 
-class Animal(ABC):
+class Animal(ABC): # ABC  =  Abstract Base Class
 
-    @abstractmethod
+    @abstractmethod  # decorator care marcheaza metoda ca fiind abstracta
     def sound(self):
         raise NotImplementedError
 
-    @abstractmethod
+    #  pass = cuvant cheie care defineste faptul ca corpul metodei nu are o logica efectiva, dar este folosit pentru ca acea metoda
+         # sa poata sa aiba un corp
+    #  raise NotImplementedError = modalitate prin care putem sa fortam in mod explicit exceptia de not implemented
+
     def sleep(self):
-        raise NotImplementedError
+        print('zzzzzzzz')
 
 # Atunci cand o clasa mosteneste o alta clasa de tip interfata sau clasa abstracta, spunem ca o implementeaza
 
 class Dog(Animal):
+
     def sound(self):
         print('Ham Ham!')
 
     def describe(self):
         print('I have an owner')
-
-    def sleep(self):
-        print('ZZZZZZZ')
 
 
 class Cat(Animal):

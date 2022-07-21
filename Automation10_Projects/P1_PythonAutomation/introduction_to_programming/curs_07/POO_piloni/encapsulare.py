@@ -24,7 +24,7 @@ class Car:
 
 
 
-volvo = Car()
+volvo = Car("test_attribute")
 print(volvo.get_color()) # getter
 volvo.set_color('red') # setter
 print(volvo.get_color()) # getter
@@ -35,8 +35,6 @@ print(volvo.get_color()) # getter
 
 
 """---------------------------------------------------  """
-
-
 
 
 class CarPy(Car):
@@ -66,8 +64,6 @@ class CarPy(Car):
     def color(self):
         print(f'Deleter: Am sters culoarea')
         self.__color = None
-
-
 
 car2 = CarPy('gray')
 car2.color = 'red' # set color

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Automation09/.idea/Automation09.iml" filepath="$PROJECT_DIR$/../Automation09/.idea/Automation09.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Automation10.iml" filepath="$PROJECT_DIR$/.idea/Automation10.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Emag/.idea/Emag.iml" filepath="$USER_HOME$/Downloads/Emag/.idea/Emag.iml" />
     </modules>
   </component>
 </project>

@@ -44,8 +44,13 @@ chrome.get('https://formy-project.herokuapp.com/form') # metoda get este o metod
 # <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
 
 # METODA 1
-first_name = chrome.find_element(By.ID,"first-name") # metoda find_element este o metoda prin care putem sa cautam un element in codul de html pe baza de diversi identificatori
-first_name.send_keys('Ala Bala Portocala') # metoda send_keys este o metoda care scrie ceva intr-un camp din browser
+try:
+    first_name = chrome.find_element(By.ID,"first-names") # metoda find_element este o metoda prin care putem sa cautam un element in codul de html pe baza de diversi identificatori
+except:
+    print("button was not visible on the website - OK")
+
+name = chrome.find_element(By.ID,"first-name")
+name.send_keys('Ala Bala Portocala') # metoda send_keys este o metoda care scrie ceva intr-un camp din browser
 
 sleep(3) # sleep este o metoda prin care putem sa punem pauza codului
             #   cu alte cuvinte instruim sistemul sa astepte 3 secunde inainte sa execute urmatoarea instructiune

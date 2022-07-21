@@ -51,6 +51,7 @@ class AngajatSRI(Angajat):
         except:
             print("Numele proiectului trebuie definit corect")
 
+
     @numeProiectAlpha.deleter
     def numeProiectAlpha(self):
         self.__numeProiectAlpha = None

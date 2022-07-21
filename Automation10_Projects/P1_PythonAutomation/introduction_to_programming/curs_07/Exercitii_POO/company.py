@@ -12,6 +12,7 @@ class company():
     def applyBonus(self, value):
         self.salary += value
 
+
     def add_department(self, departmentId, departmentName):
         self.departamente[departmentId] = departmentName
 
